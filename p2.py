@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 ## python studys
 
 #simple if
@@ -12,6 +13,25 @@ thisint = 0
 ar = [1,2,3,4,5,6] ## this isnt an array, it is a LIST!!
 list = ar 
 strar = ["1","2","3","4","5"]
+
+filename = "c:\\win\\sys\\met.exe"
+print filename[0]
+print filename[1]
+print filename[-2]
+print filename[3:6]
+print filename[3:]
+print filename[-3:]
+print filename.split("\\")
+print filename.split(".")
+#c
+#:
+#x
+#win
+#win\sys\met.exe
+#exe
+#['c:', 'win', 'sys', 'met.exe']
+#['c:\\win\\sys\\met', 'exe']
+
 
 #I think this is a tuple 
 tup = ("a","b","c","d")
